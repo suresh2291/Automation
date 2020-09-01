@@ -1,0 +1,21 @@
+{
+  "name": "amrutham",
+  "version": "1.0.0",
+  "description": "nodejs task management using mongodb in CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "jest"
+  },
+  "author": "Amrutham Suresh",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "inquirer": "^7.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
